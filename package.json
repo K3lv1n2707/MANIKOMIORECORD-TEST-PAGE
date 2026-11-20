@@ -1,0 +1,21 @@
+{
+  "name": "web-productora",
+  "version": "1.0.0",
+  "description": "Web de productora de eventos, booking y logística con panel de administrador",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-session": "^2.1.1",
+    "ejs": "^7.0.2",
+    "express": "^4.22.3",
+    "multer": "^2.5.0"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  }
+}
